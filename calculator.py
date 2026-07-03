@@ -3,7 +3,7 @@ import math
 class Calculator:
 
     def add(self, a, b):
-        return a + b +10
+        return a + b +80
 
     def subtract(self, a, b):
         return a - b
