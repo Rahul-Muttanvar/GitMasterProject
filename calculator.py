@@ -18,3 +18,6 @@ class Calculator:
 
     def square_root(self, number):
         return math.sqrt(number)
+
+    def modulo(self,a,b):
+        return a%b
