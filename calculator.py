@@ -1,3 +1,5 @@
+import math
+
 class Calculator:
 
     def add(self, a, b):
@@ -13,3 +15,6 @@ class Calculator:
         if b == 0:
             raise ValueError("Cannot divide by zero")
         return a / b
+
+    def square_root(self, number):
+        return math.sqrt(number)
